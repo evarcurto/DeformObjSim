@@ -20,17 +20,21 @@ pip3 install pybullet --upgrade --user
 git clone 'https://github.com/bulletphysics/bullet3.git'
 ```
 
-```python
-conda activate BulletEnv'
-```
+Running simulator
 
-Running demo
+- Activation of BulletEnv environment:
 ```python
-git clone 'https://github.com/bulletphysics/bullet3.git'
+conda activate BulletEnv
 ```
+- Clone DeformObjSim repository
+```python
+git clone 'https://github.com/evarcurto/DeformObjSim.git'
+```
+- Change directory to DeformObjSim
 ```python
 cd DeformObjSim
 ```
+- Run main script
 ```python
 python main.py
 ```
